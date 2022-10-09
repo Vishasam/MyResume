@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8">
+  <title>CodePen -  Html - RESUME</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  color: #222;
+  line-height: 1.5;
+}
+
+body{
+  padding: 3rem 1rem;
+  background:linear-gradient(#dfe0db, #dfe0db 50%, powderblue 50%, powderblue);
+
+
+
+}
+
+h1{
+  font-size: 2rem;
+  
+}
+h2{
+  font-size: 1.2 rem;
+  text-transform: uppercase;
+  border-top: solid #888;
+  border-bottom: solid #888;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  color: green;
+}
+h3{
+  font-size: 1.4rem;
+  color: maroon;
+  margin-bottom: 0rem;
+  
+}
+
+p{
+  line-height :1.5;
+  
+}
+
+section + section{
+  margin-top: 3 rem;
+}
+li + li{
+  margin-top: 0.25rem;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style: none;
+}
+.profile{
+  text-align: center;
+}
+.profile img{
+  border-radius: 8888px;
+  width: 16rem;
+  height: 16rem;
+  
+}
+
+.profile p{
+  margin-bottom: 1rem
+}
+.contact ul{
+  margin-top:0.5rem;
+}
+.contact li{
+ 
+  text-align:left;
+  padding:0.2rem;
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.timeline .event{
+  display: grid;
+  grid-template-columns: 5ch 1fr;
+}
+
+.timeline .content{
+  
+  border-left: 3px solid #999;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.content > h3 + p {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-gap: 4rem;
+  background-color: white;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+</style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <link rel="stylesheets" href="style.css">
+  <script src="https://imageshack.com/i/pmVKp71pj" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ea48fc031f.js" crossorigin="anonymous"></script>
+</head>
+
+<div class="resume">
+  <div class="column">
+
+    <body>
+      <section class="profile">
+        <h1><em>VISHALINI SAMUTHIRAM</em></h1>
+        <br>
+        <img src="https://imageshack.com/i/pmur5yS4j" alt="image">
+      </section><br>
+
+      <section class="objectives">
+        <h2>Objective</h2>
+
+        To take a challenging role as a Data Scientist in a Company Where my skills and knowledge can be use and enhanced to the fullest.I will implement my knowledge, ideas and skills with my creativity and to grow along with organization
+
+      </section>
+      <br>
+      <section class="contact">
+        <h2>Contact</h2>
+        <ul>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+          </li>
+          <li>6/167 A KG Postal Nagar, Bodhupatti Road, Namakkal.</li>
+          <li>
+          <li>
+            <i class="fa-solid fa-square-envelope"></i>
+            <br>
+            <a href="mailto:vishalinisam@gmail.com">vishalinisam@gmail.com</a>
+          </li>
+          </li>
+          <br>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+          </li>
+
+          <li><a href="tel:+919500346264">(+91)9500346264</a></li>
+        </ul>
+      </section>
+
+      <section class="education">
+        <h2>Education</h2>
+        <ul class="timeline">
+          <li class="event">
+            <span class="duration">2020-2024</span>
+            <div class="content">
+              <h3>Karpagam College of Engineering</h3>
+              <p><em>Artificial Intelligence and Data Science</em></p>
+              <p>CGPA: 9.4</p>
+            </div>
+          </li>
+
+          <li class="event">
+            <span class="duration">2019-2020</span>
+            <div class="content">
+              <h3>Green Park Girls Matric Higher Secondary School</h3>
+              <p><em>HSC</em></p>
+              <p>Percentage: .67.3%</p>
+            </div>
+          </li>
+
+          <li class="event">
+            <span class="duration">2017-2018</span>
+            <div class="content">
+              <h3>Green Park Girls Matric Higher Secondary School</h3>
+              <p><em>SSLC</em></p>
+              <p>Percentage: 91.3%</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <br>
+  </div>
+
+  <div class="column">
+
+    <section class="Internship&Workshop">
+      <h2 style="font-size:150%;">Internship&Workshop</h2>
+      <ul>
+        <li>
+          <p>Microsoft PowerBI - WE&DATA</P>
+        </li>
+        <li>
+          <P>Data Visualization - Tableau Software</p>
+        </li>
+        <li>
+          <p>Fundamentals od Deep Learning - NVIDIA</p>
+        </li>
+      </ul>
+      <br>
+      <section class="PROJECTS">
+        <h2 style="font-size:170%;"> Projects</h2>
+        <ul class="timeline">
+          <li class="event">
+            <span class="duration">|NOV-2021|</span>
+            <div class="content">
+              <h3>SPELL CHECKER</h3>
+              <p>* This is a small scale project for SPELL CHECK which
+                should be able to find out and display all the spelling
+                mistakes in a given text file written in English.<br>
+                * The spell checker tool compares every word you type
+                against its dictionary, or database of words.</br></p>
+            </div>
+          </li>
+        </ul>
+        <br>
+        <ul class="timeline">
+          <li class="event">
+            <span class="duration">|NOV-2021|</span>
+            <div class="content">
+              <h3>AIRPORT MANAGEMENT SYSTEM</h3>
+              <p>* Airline Management System is software which is
+                helpful for Airline passengers . In the current system all
+                the activities are done manually.<br>
+                * It is very time consuming and costly. Our airlines
+                Management System deals with the various activities
+                related to airline passengers.</p>
+            </div>
+          </li>
+        </ul>
+        <br>
+        <ul class="timeline">
+          <li class="event">
+            <span class="duration">|JUN-2022|</span>
+            <div class="content">
+              <h3>NEXT WORD PREDICTION</h3>
+              <p>* This is helpful in predicting the Next word. This gives Two ways of output. One is by Giving Possible Words. Another is by Giving an Manual input to get the output.</p>
+            </div>
+          </li>
+        </ul>
+        <br>
+        <section>
+
+        </section class="Certificates">
+        <h2 style="font-size:170%;">Certificates</h2>
+        <ul>
+          <li>
+            INTERNSHIP IN POWER BI - WE&DATA
+          </li>
+          <li>
+            FUNDAMENTALS OF DEEP LEARNING -NVIDIA
+          </li>
+          <li>
+            JAVA FUNDAMENTALS - INFOSYS
+          </li>
+          <li>
+            JAVA SE8 - INFOSYS
+          </li>
+          <li>
+            JAVA LANGUAGE FEATURES - INFOSYS
+          </li>
+          <ul>
+
+      </section>
+      <br>
+      <section class="Skills">
+        <div class="skills">
+          <h2 style="font-size:170%;">Skills</h2>
+          <ul>
+            <li>
+              * C
+            </li>
+            <li>
+              * Python
+            </li>
+            <li>
+              * MySQL
+            </li>
+            <li>
+              * Java
+            </li>
+            <li>
+              * R
+            </li>
+          </ul>
+        </div>
+        </body>
+      </section>
+
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
